@@ -3,6 +3,7 @@ p, li, a, button{
     font-size: 1vw;
 }
 
+
 h1{
     font-family: Kanit;
     font-size: 2vw;
@@ -34,10 +35,11 @@ header {
     justify-content: space-between;
     width: 80%;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .logo{
-    height: 36px; /* Adjust the height as needed */
+    height: 30px; /* Adjust the height as needed */
     margin-right: 20px;
 }
 
@@ -61,6 +63,8 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    padding: 3px 5px;
+    border: 1px solid transparent;
 }
 
 header div a{
@@ -108,7 +112,7 @@ a:hover {
     color: #D80032;
     background-color: #EDF2F4;   
     border-radius: 16px;
-    padding: 5px 8px;
+    padding: 3px 5px;
     border: 1px solid #EF233C;
 }
 
@@ -184,7 +188,7 @@ footer {
     background-color: #D80032;
     color: white;
     text-align: center;
-    padding: 1px 0;
+    padding: 0.5px 0;
     position: relative;
     bottom: 0;
     width: 100%;
