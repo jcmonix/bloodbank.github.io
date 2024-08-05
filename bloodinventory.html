@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Inventory</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav style="overflow:auto">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="bloodinventory.html">Blood Inventory</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside style="overflow:auto">
+        <div id="info-content">
+            <h2>Blood Inventory</h2>
+            <p>Select a blood bank from the left to display information here.</p>
+        </div>
+    </aside>
+    
+
+    <main>
+        <article>
+            <section>
+                <h2>Blood Blank</h2>
+                <p>Select a blood bank to display the blood inventory information.</p>
+                <button onclick="showContent('SLU', this)" class="btn">Saint Louis University Hospital of the Sacred Heart</button>
+                <button onclick="showContent('PCDH', this)" class="btn">Pines City Doctors’ Hospital</button>
+                <button onclick="showContent('BGHMC', this)" class="btn">Baguio General Hospital Medical Center</button>
+                <button onclick="showContent('RC', this)" class="btn">Philippine Red Cross Baguio City Chapter</button>
+                <button onclick="showContent('BeGH', this)" class="btn">Benguet General Hospital</button>
+                <button onclick="showContent('NDDCH', this)" class="btn">Notre Dame de Chartres Hospital</button>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Blood Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html>

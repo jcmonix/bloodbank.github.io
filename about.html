@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        
+        <nav style="overflow:auto">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="bloodinventory.html">Blood Inventory</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside style="overflow:auto">
+        <div id="info-content">
+            <p>Select a topic from the left to display information here.</p>
+        </div>
+    </aside>
+    
+    <main>
+        <section>
+            <article>
+                <h2>About Us</h2> 
+                <button onclick="showContent('mission', this)" class="btn">Our Mission</button>
+                <button onclick="showContent('vision', this)" class="btn">Our Vision </button>
+                <button onclick="showContent('values', this)" class="btn">Our Values</button>
+                <button onclick="showContent('team', this)" class="btn">Our Team</button>
+                <button onclick="showContent('impact', this)" class="btn">Our Impact</button> 
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Blood Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
