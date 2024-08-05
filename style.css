@@ -7,6 +7,7 @@ h1{
     font-family: Kanit;
     font-size: 2vw;
     text-align: center;
+    margin: 0;
 }
 
 h2{
@@ -24,23 +25,47 @@ body {
 header {
     background-color: #D80032;
     color: white;
-    padding: 8px 0;
-    text-align: center;
+    padding: 0px 0;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo{
+    height: 36px; /* Adjust the height as needed */
+    margin-right: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5vw;
+    position: inherit;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    margin: 0;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 10px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+}
+
+header div a{
+    text-decoration: none;
+    background-color: transparent;
 }
 
 aside {
