@@ -111,6 +111,14 @@ a:hover {
     padding: 5px 8px;
     border: 1px solid #EF233C;
 }
+
+#head:hover{
+    color: #EDF2F4;
+    background-color: #D80032;
+    border: 0px solid;
+    padding: 0px;
+    text-decoration: none; 
+}
   
 a:active {
     color: #D80032;
