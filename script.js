@@ -66,35 +66,288 @@ function showContent(eventType, button) {
             <h1>Saint Louis University Hospital of the Sacred Heart</h1>
             <hr>
             <h2>Blood Inventory</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Blood Type</th>
+                        <th>Supply</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A+</td>
+                        <td>50 units</td>
+                    </tr>
+                    <tr>
+                        <td>A-</td>
+                        <td>30 units</td>
+                    </tr>
+                    <tr>
+                        <td>B+</td>
+                        <td>45 units</td>
+                    </tr>
+                    <tr>
+                        <td>B-</td>
+                        <td>20 units</td>
+                    </tr>
+                    <tr>
+                        <td>AB+</td>
+                        <td>25 units</td>
+                    </tr>
+                    <tr>
+                        <td>AB-</td>
+                        <td>10 units</td>
+                    </tr>
+                    <tr>
+                        <td>O+</td>
+                        <td>60 units</td>
+                    </tr>
+                    <tr>
+                        <td>O-</td>
+                        <td>15 units</td>
+                    </tr>
+                </tbody>
+            </table>
         `,
         PCDH:`
             <h1>Pines City Doctors’ Hospital</h1>
             <hr>
             <h2>Blood Inventory</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Blood Type</th>
+                        <th>Supply</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A+</td>
+                        <td>43 units</td>
+                    </tr>
+                    <tr>
+                        <td>A-</td>
+                        <td>27 units</td>
+                    </tr>
+                    <tr>
+                        <td>B+</td>
+                        <td>54 units</td>
+                    </tr>
+                    <tr>
+                        <td>B-</td>
+                        <td>33 units</td>
+                    </tr>
+                    <tr>
+                        <td>AB+</td>
+                        <td>27 units</td>
+                    </tr>
+                    <tr>
+                        <td>AB-</td>
+                        <td>17 units</td>
+                    </tr>
+                    <tr>
+                        <td>O+</td>
+                        <td>42 units</td>
+                    </tr>
+                    <tr>
+                        <td>O-</td>
+                        <td>29 units</td>
+                    </tr>
+                </tbody>
+            </table>
         `,
         BGHMC:`
             <h1>Baguio General Hospital Medical Center</h1>
             <hr>
             <h2>Blood Inventory</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Blood Type</th>
+                        <th>Supply</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A+</td>
+                        <td>56 units</td>
+                    </tr>
+                    <tr>
+                        <td>A-</td>
+                        <td>46 units</td>
+                    </tr>
+                    <tr>
+                        <td>B+</td>
+                        <td>24 units</td>
+                    </tr>
+                    <tr>
+                        <td>B-</td>
+                        <td>33 units</td>
+                    </tr>
+                    <tr>
+                        <td>AB+</td>
+                        <td>27 units</td>
+                    </tr>
+                    <tr>
+                        <td>AB-</td>
+                        <td>29 units</td>
+                    </tr>
+                    <tr>
+                        <td>O+</td>
+                        <td>69 units</td>
+                    </tr>
+                    <tr>
+                        <td>O-</td>
+                        <td>23 units</td>
+                    </tr>
+                </tbody>
+            </table>
         `,
         RC:`
             <h1>Philippine Red Cross Baguio City Chapter</h1>
             <hr>
             <h2>Blood Inventory</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Blood Type</th>
+                        <th>Supply</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A+</td>
+                        <td>62 units</td>
+                    </tr>
+                    <tr>
+                        <td>A-</td>
+                        <td>55 units</td>
+                    </tr>
+                    <tr>
+                        <td>B+</td>
+                        <td>43 units</td>
+                    </tr>
+                    <tr>
+                        <td>B-</td>
+                        <td>41 units</td>
+                    </tr>
+                    <tr>
+                        <td>AB+</td>
+                        <td>26 units</td>
+                    </tr>
+                    <tr>
+                        <td>AB-</td>
+                        <td>33 units</td>
+                    </tr>
+                    <tr>
+                        <td>O+</td>
+                        <td>22 units</td>
+                    </tr>
+                    <tr>
+                        <td>O-</td>
+                        <td>22 units</td>
+                    </tr>
+                </tbody>
+            </table>
         `,
         BeGH:`
             <h1>Benguet General Hospital</h1>
             <hr>
             <h2>Blood Inventory</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Blood Type</th>
+                        <th>Supply</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A+</td>
+                        <td>43 units</td>
+                    </tr>
+                    <tr>
+                        <td>A-</td>
+                        <td>47 units</td>
+                    </tr>
+                    <tr>
+                        <td>B+</td>
+                        <td>51 units</td>
+                    </tr>
+                    <tr>
+                        <td>B-</td>
+                        <td>37 units</td>
+                    </tr>
+                    <tr>
+                        <td>AB+</td>
+                        <td>17 units</td>
+                    </tr>
+                    <tr>
+                        <td>AB-</td>
+                        <td>18 units</td>
+                    </tr>
+                    <tr>
+                        <td>O+</td>
+                        <td>12 units</td>
+                    </tr>
+                    <tr>
+                        <td>O-</td>
+                        <td>8 units</td>
+                    </tr>
+                </tbody>
+            </table>
         `,
         NDDCH:`
             <h1>Notre Dame de Chartres Hospital</h1>
             <hr>
             <h2>Blood Inventory</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Blood Type</th>
+                        <th>Supply</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A+</td>
+                        <td>66 units</td>
+                    </tr>
+                    <tr>
+                        <td>A-</td>
+                        <td>50 units</td>
+                    </tr>
+                    <tr>
+                        <td>B+</td>
+                        <td>43 units</td>
+                    </tr>
+                    <tr>
+                        <td>B-</td>
+                        <td>29 units</td>
+                    </tr>
+                    <tr>
+                        <td>AB+</td>
+                        <td>15 units</td>
+                    </tr>
+                    <tr>
+                        <td>AB-</td>
+                        <td>33 units</td>
+                    </tr>
+                    <tr>
+                        <td>O+</td>
+                        <td>31 units</td>
+                    </tr>
+                    <tr>
+                        <td>O-</td>
+                        <td>25 units</td>
+                    </tr>
+                </tbody>
+            </table>
         `,
         data:`
             <h1>Blood Inventory Data Analysis</h1>
             <hr>
+            <canvas id="bloodSupplyChart" width="400" height="200" style="display: none;"></canvas>
         `,
     };
 
@@ -106,7 +359,6 @@ function showContent(eventType, button) {
     
     // Add the active class to the clicked button
      button.classList.add('active');
+
+    
 }
-
-
-

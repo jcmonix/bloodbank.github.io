@@ -1,4 +1,4 @@
-p, li, a, button{
+p, li, a, button, table{
     font-family: Montserrat;
     font-size: 1vw;
 }
@@ -177,6 +177,27 @@ article {
     border: 2px solid #EF233C;
     border-radius: 16px;
     box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #EF233C;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
 }
 
 section {
