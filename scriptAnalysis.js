@@ -9,7 +9,7 @@ document.getElementById('analytics').addEventListener('click', function() {
             labels: ['A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-'],
             datasets: [{
                 label: 'Number of Blood Supply Needed to Collect',
-                data: [50, 30, 45, 20, 25, 10, 60, 15],
+                data: [50, 30, 45, 20, 25, 10, 64, 15],
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
                     'rgba(54, 162, 235, 0.2)',
